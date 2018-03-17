@@ -54,21 +54,27 @@ Korisnici koji su registrovani na sistem moći će putem ove opcije rezervisati 
 
 **Kupovina karte**
 ```
-Korisnici koji su registrovani na sistem moći će putem ove opcije kupiti karte za događaje koji ih interesuju, pri čemu se plaćanje 
-vrši elektronskim putem i svaka karta ima svoj jedinstveni QR kod.
+Korisnici koji su registrovani na sistem moći će putem ove opcije kupiti karte za događaje koji ih interesuju, 
+
+pri čemu se plaćanje vrši elektronskim putem i svaka karta ima svoj jedinstveni QR kod.
 ```
 
 **Otkazivanje rezervacije**
 ```
-Ukoliko korisnik ne može prisustvovati događaju za koji je rezervisao karte, onda on mora otkazati svoju rezervaciju najkasnije 7 dana prije eventa.
+Ukoliko korisnik ne može prisustvovati događaju za koji je rezervisao karte, onda on mora otkazati svoju rezervaciju 
 
-Ukoliko korisnik nije izvršio uplatu za rezervisane karte najkasnije 7 dana prije događaja, administratori sistema će izvršiti otkazivanje rezervacije.
+najkasnije 7 dana prije eventa.
+
+Ukoliko korisnik nije izvršio uplatu za rezervisane karte najkasnije 7 dana prije događaja, administratori 
+
+sistema će izvršiti otkazivanje rezervacije.
 ```
 
 **Brisanje korisnika**
 ```
-Ukoliko dođe do automatskog poništavanja rezervacije više od 3 puta od strane istog korisnika, administratori brišu datog 
-korsnika sa sistema.
+Ukoliko dođe do automatskog poništavanja rezervacije više od 3 puta od strane istog korisnika, administratori 
+
+brišu datog korsnika sa sistema.
 ```
 
 **Brisanje događaja**
