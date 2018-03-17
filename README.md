@@ -35,24 +35,30 @@ Klijenti, uz pomoć sistema biraju godišnje doba koje ih zanima ili koje je na 
 
 
 **Registracija**
+
 Omogućava korisniku kreiranje naloga na ovom sistemu.
 
 **Log in**
+
 Omagućava korisniku pristup korisnikčkom računu koji je već unaprijed otvoren.
 
 **Rezervacija**
+
 Korisnici koji su registrovani na sistem moći će putem ove opcije rezervisati karte za neki od događaja.
 
 **Kupovina karte**
+
 Korisnici koji su registrovani na sistem moći će putem ove opcije kupiti karte za neki od događaja, pri čemu se plaćanje vrši elektronskim putem.
 
 **Otkazivanje rezervacije**
+
 Ukoliko korisnik ne može prisustvovati događaju za koji je rezervisao karte, onda on mora otkazati svoju rezervaciju najkasnije 7 dana prije eventa.
 
 Ukoliko korisnik nije izvrsio upatu za rezervisane karte najkasnije 7 dana prije događaja, administratori sistema će izvrsiti otkazivanje rezervacije.
 
 
 **Brisanje korisnika**
+
 Ukoliko dođe do automatskog poništavanja rezervacije vise od 3 puta od strane istog korisnika, administratori brisu datog korsnika sa sistema.
 
 **Brisanje događaja**
@@ -84,9 +90,9 @@ Ukoliko dođe do otkazivanja nekog događaja, taj događaj će se izbaciti sa si
 
 ## Akteri
 
-1. Klijen sistema je osoba koja zeli da pregleda događaje u Sarajevu
+1. Klijent sistema je osoba koja zeli da pregleda događaje u Sarajevu
 
-2. Klijen sistema koji zeli da kupi/rezervise kartu
+2. Klijent sistema koji zeli da kupi/rezervise kartu
 
 3. Administrator vodi evidenciju o događajima i aktivnosti korisnika
 
