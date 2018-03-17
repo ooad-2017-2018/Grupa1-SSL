@@ -1,6 +1,6 @@
 # Grupa1 - TeamHNS
 
-Članovi tima:
+:busts_in_silhouette: Članovi tima:
 
 1.Ajdinović Haris
 
@@ -111,8 +111,5 @@ Ukoliko dođe do otkazivanja nekog događaja, taj događaj će se izbaciti sa si
 2. Klijent sistema koji želi da kupi/rezerviše kartu
 
 3. Administrator vodi evidenciju o događajima i aktivnosti korisnika
-
-
-/play greatjob
 
 
