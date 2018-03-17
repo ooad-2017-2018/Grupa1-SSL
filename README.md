@@ -9,7 +9,7 @@
 3.Biševac Nežla
 
 
-## :sparkles: Sarajevo Social Life :sparkles:
+## :sparkles: :sparkles: Sarajevo Social Life :sparkles: :sparkles:
 
 
 ![giphy](https://user-images.githubusercontent.com/37189397/37556734-4f201432-29fa-11e8-9741-1105968de6ce.gif)
@@ -19,13 +19,13 @@ SSL je sistem koji pojednostavljuje posjetu društveno- kulturnim dešavnjima u 
 
 Neki od događaja su: 
 
-*Zima*: Sarajevska zima, Zimski salon knjige; 
+:snowflake: *Zima*: Sarajevska zima, Zimski salon knjige; 
 
-*Proljeće*: Festival osmijeha, Međunarodni sajam knjige;
+:tulip: *Proljeće*: Festival osmijeha, Međunarodni sajam knjige;
 
-*ljeto*: SFF, Baščaršijske noći; 
+:sunny: *ljeto*: SFF, Baščaršijske noći; 
 
-*Jesen*: MESS, Balet Fest Sarajevo, Jazz Fest Sarajavo. 
+:maple_leaf: *Jesen*: MESS, Balet Fest Sarajevo, Jazz Fest Sarajavo. 
 
 Osim događaja koji su navedeni i koji su fiksni, uzet ćemo u obzir dešavanja u pozorištima, kinima, kao i koncertne manifestacije. 
 Lokacija svakog događaja će biti označena na Google mapi kako bi korisnici lakše pronašli traženu lokaciju.
