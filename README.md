@@ -1,12 +1,13 @@
-#Grupa1 - TeamHNS
+# Grupa1 - TeamHNS
 ---
 Članovi tima:
+
 1.Ajdinović Haris
 2.Bejtić Samra
 3.Biševac Nežla
 
 ---
-#Sarajevo Social Life
+## Sarajevo Social Life
 
 SSL je sistem koji pojednostavljuje posjetu društveno- kulturnim dešavnjima u Sarajevu. S obzirom na to će kupovina karti putem ovog sistema biti elektronska, doći će do smanjenja radne snage, odnosno, neće biti potreban veliki broj box office-a. Prednost SSL je odabir dešavanja u Sarajevu putem godišnjih doba, pri čemu će svaki događaj biti opisan, kako bi klijenti imali bolju orijentaciju o događajima, te na osnovu toga zaključili šta im najviše odgovara za posjećivanje. Neki od događaja su: 
 ljeto: SFF, Baščaršijske noći; 
