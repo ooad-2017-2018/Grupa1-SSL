@@ -12,7 +12,7 @@
 ## :sparkles: Sarajevo Social Life :sparkles:
 
 
-![giphy](https://user-images.githubusercontent.com/37189397/37556734-4f201432-29fa-11e8-9741-1105968de6ce.gif)
+                  ![giphy](https://user-images.githubusercontent.com/37189397/37556734-4f201432-29fa-11e8-9741-1105968de6ce.gif)
 
 
 SSL je sistem koji pojednostavljuje posjetu društveno- kulturnim dešavnjima u Sarajevu. S obzirom na to će kupovina karti putem ovog sistema biti elektronska, doći će do smanjenja radne snage, odnosno, neće biti potreban veliki broj box office-a. Prednost SSL je odabir dešavanja u Sarajevu putem godišnjih doba, pri čemu će svaki događaj biti opisan, kako bi klijenti imali bolju orijentaciju o događajima, te na osnovu toga zaključili šta im najviše odgovara za posjećivanje. 
