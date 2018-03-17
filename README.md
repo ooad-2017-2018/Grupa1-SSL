@@ -9,7 +9,7 @@
 3.Biševac Nežla
 
 
-## Sarajevo Social Life
+## :sparkles: Sarajevo Social Life :sparkles:
 
 
 ![giphy](https://user-images.githubusercontent.com/37189397/37556734-4f201432-29fa-11e8-9741-1105968de6ce.gif)
