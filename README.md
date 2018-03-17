@@ -113,6 +113,6 @@ Ukoliko dođe do otkazivanja nekog događaja, taj događaj će se izbaciti sa si
 3. Administrator vodi evidenciju o događajima i aktivnosti korisnika
 
 
-
+/play greatjob
 
 
