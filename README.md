@@ -54,12 +54,13 @@ Korisnik se registruje na sistem tako što ispuni slijedeća polja (sva polja su
 
 5.Zanimanje
 
-6.Username
+6.Spol
 
-7.Password
+7.Username
+
+8.Password
 
 Također, registracija korisnika koji imaju ispod 18 godina neće biti moguća.
-
 
 ```
 
@@ -67,6 +68,7 @@ Također, registracija korisnika koji imaju ispod 18 godina neće biti moguća.
 ```
 Omogućava korisniku pristup korisnikčkom računu koji je već unaprijed otvoren.
 ```
+
 **Rezervacija**
 ```
 Korisnici koji su registrovani na sistem moći će putem ove opcije rezervisati karte za neki od događaja.
@@ -122,7 +124,6 @@ Ukoliko dođe do otkazivanja nekog događaja, taj događaj će se izbaciti sa si
 
 * Registracija korisnika na sistem
 
----
 
 ## Akteri
 
