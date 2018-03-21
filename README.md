@@ -42,25 +42,6 @@ Administrator sistema vrši zakazivanje i otkazivanje događaja.
 **Registracija**
 ```
 Omogućava korisniku kreiranje naloga na ovom sistemu.
-Korisnik se registruje na sistem tako što ispuni slijedeća polja (sva polja su obavezna) :
-
-1.Ime
-
-2.Prezime
-
-3.Datum rođenja
-
-4.JMBG
-
-5.Zanimanje
-
-6.Spol
-
-7.Username
-
-8.Password
-
-Također, registracija korisnika koji imaju ispod 18 godina neće biti moguća.
 
 ```
 
@@ -106,24 +87,51 @@ Ukoliko dođe do otkazivanja nekog događaja, taj događaj će se izbaciti sa si
 
 ## Funkcionalnosti
 
-* Odabir jezika
+* FUNKCIONALNOSTI OD STARNE KORISNIKA 
+  * Odabir jezika - Korisnik bira jezik koji mu najviše odgovara. Planirani su slijedeći ponuđeni jezici: bosanski/hrvatski/srpski,         engleski.
+  
+  * Odabir godišnjeg doba
 
-* Odabir godišnjeg doba
+  * Rezervacija karte
+  
+  * Registracija na sistem - Korisnik se registruje na sistem tako što ispuni slijedeća polja (sva polja su obavezna) :
 
-* Rezervacija karte
+    1.Ime
 
-* Kupovina karte
+    2.Prezime
 
-* Otkazivanje karte
+    3.Datum rođenja
 
-* Prikaz lokacije na mapi
+    4.JMBG
 
-* Elektronsko plaćanje sa eventualnim popustom
+    5.Zanimanje
 
-* Vođenje evidencije o raspoloživim kartama
+    6.Spol
 
-* Registracija korisnika na sistem
+    7.Username
 
+    8.Password
+
+    Također, registracija korisnika koji imaju ispod 18 godina neće biti moguća.
+
+  * Kupovina karte
+
+  * Otkazivanje karte
+
+  * Prikaz lokacije na mapi
+
+  * Elektronsko plaćanje sa eventualnim popustom
+
+* FUNKCIONALNOSTI OD STRANE ADMINA
+  * Vođenje evidencije o raspoloživim kartama
+
+  * Brisanje korisnika sa sistema
+  
+  * Nadgledanje sistema
+  
+* FUNKCIONALNOSTI OD STRANE ORGANIZATORA
+  * Zakazivanje i otkazivanje događaja
+ 
 
 ## Akteri
 
