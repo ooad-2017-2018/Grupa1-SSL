@@ -56,11 +56,6 @@ Korisnici koji su registrovani na sistem moći će putem ove opcije rezervisati 
 ```
 
 **Kupovina karte**
-```
-Korisnici koji su registrovani na sistem moći će putem ove opcije kupiti karte za događaje koji ih interesuju, 
-
-pri čemu se plaćanje vrši elektronskim putem i svaka karta ima svoj jedinstveni QR kod.
-```
 
 **Otkazivanje rezervacije**
 ```
@@ -79,6 +74,7 @@ Ukoliko dođe do automatskog poništavanja rezervacije više od 3 puta od strane
 
 brišu datog korsnika sa sistema.
 ```
+**Zakazivanje događaja**
 
 **Brisanje događaja**
 ```
@@ -115,7 +111,10 @@ Ukoliko dođe do otkazivanja nekog događaja, taj događaj će se izbaciti sa si
     Također, registracija korisnika koji imaju ispod 18 godina neće biti moguća.
 
   * Kupovina karte
-
+  
+   Korisnici koji su registrovani na sistem moći će putem ove opcije kupiti karte za događaje koji ih interesuju, 
+   pri čemu se plaćanje vrši elektronskim putem i svaka karta ima svoj jedinstveni QR kod.
+  
   * Otkazivanje karte
 
   * Prikaz lokacije na mapi
@@ -125,7 +124,7 @@ Ukoliko dođe do otkazivanja nekog događaja, taj događaj će se izbaciti sa si
 * FUNKCIONALNOSTI OD STRANE ADMINA
   * Vođenje evidencije o raspoloživim kartama
 
-  * Brisanje korisnika sa sistema
+  * Brisanje korisnika i događaja sa sistema
   
   * Nadgledanje sistema
   
@@ -141,4 +140,4 @@ Ukoliko dođe do otkazivanja nekog događaja, taj događaj će se izbaciti sa si
 
 3. Administrator vodi evidenciju o događajima i aktivnosti korisnika
 
-
+4. Organizator vodi evidenciju o događajima
