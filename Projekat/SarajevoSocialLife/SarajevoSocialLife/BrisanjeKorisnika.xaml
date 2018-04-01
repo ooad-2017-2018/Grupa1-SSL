@@ -1,14 +1,13 @@
 ﻿<Page
+    x:Class="SarajevoSocialLife.BrisanjeKorisnika"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:SarajevoSocialLife"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:Custom="using:Windows.UI.Xaml.Controls.Maps"
-    x:Class="SarajevoSocialLife.MainPage"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="46,3,20,0" Height="1032" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     </Grid>
 </Page>
