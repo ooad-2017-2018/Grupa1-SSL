@@ -7,20 +7,30 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <StackPanel Orientation="Vertical">
-            <TextBlock Text="Login" FontSize="36" Margin="4" TextAlignment="Center"/>
-            
-            <TextBlock Text=" " Margin="0,0,0,20"
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Images/LoginBackground.jpg" Stretch="Fill"/>
+        </Grid.Background>
+        <Grid VerticalAlignment="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <StackPanel Orientation="Vertical" Grid.Row="0">
+                <TextBlock Text="Login" FontSize="36" Margin="4" TextAlignment="Center"/>
+
+                <TextBlock Text=" " Margin="0,0,0,20"
                TextWrapping="Wrap" Width="300"
                TextAlignment="Center" VerticalAlignment="Center" FontSize="16"/>
-            <TextBox x:Name="UsernameTextBox" PlaceholderText="Username" Margin="4" Width="250"/>
-            <PasswordBox x:Name="passwordBox" PlaceholderText="Password" Margin="4" Width="250"/>
-            <Button x:Name="LogInButton" Content="Login" Background="DodgerBlue" Foreground="White"
+                <TextBox x:Name="UsernameTextBox" PlaceholderText="Username" Margin="4" Width="250"/>
+                <PasswordBox x:Name="passwordBox" PlaceholderText="Password" Margin="4" Width="250"/>
+                <Button x:Name="LogInButton" Content="Login" Background="DodgerBlue" Foreground="White"
          Width="80" HorizontalAlignment="Center" Margin="0,20"/>
-           
-            
-            
-        </StackPanel>
+
+
+
+            </StackPanel>
+        </Grid>
     </Grid>
 </Page>

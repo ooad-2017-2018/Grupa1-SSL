@@ -7,7 +7,27 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Images/admin.jpg" Stretch="Fill"/>
+        </Grid.Background>
+        <Grid VerticalAlignment="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
 
+            <StackPanel Orientation="Vertical" Grid.Row="2">
+                
+                <Button x:Name="pretraziKorisnikaButton" Content="Pretraži korisnike" Width="150" HorizontalAlignment="Center" Margin="0,20" Background ="Black" Foreground="White"/>
+                <Button x:Name="prikaziiKorisnikeButton" Content="Prikaži sve korisnike" Width="150" HorizontalAlignment="Center" Margin="0,20" Background ="Black" Foreground="White"/>
+                <Button x:Name="brisiKorisnikaButton" Content="Izbriši korisnika" Width="150" HorizontalAlignment="Center" Margin="0,20" Background ="Black" Foreground="White"/>
+                <Button x:Name="brisiDogadjajButton" Content="Izbriši događaj" Width="150" HorizontalAlignment="Center" Margin="0,20" Background ="Black" Foreground="White"/>
+                <Button x:Name="ugasiKupovinuButton" Content="Ugasi kupovinu" Width="150" HorizontalAlignment="Center" Margin="0,20" Background ="Black" Foreground="White"/>
+
+
+
+            </StackPanel>
+        </Grid>
     </Grid>
 </Page>

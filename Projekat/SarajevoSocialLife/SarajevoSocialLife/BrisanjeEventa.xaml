@@ -8,6 +8,24 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid VerticalAlignment="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            <ListBox HorizontalAlignment="Center" Grid.Row="0" VerticalAlignment="Top" Margin="58,64,42,0" Height="168"/>
+            <StackPanel Orientation="Vertical" Grid.Row="1">
+                <Button x:Name="PotvrdaBrisanjeButton" Content="Potvrdi Brisanje" Width="150" HorizontalAlignment="Center" Margin="0,20"/>
+                <Button x:Name="ponistiBrisanjeButton" Content="Ponisti" Width="150" HorizontalAlignment="Center" Margin="0,20"/>
+
+
+
+            </StackPanel>
+        </Grid>
+        
+
 
     </Grid>
 </Page>
