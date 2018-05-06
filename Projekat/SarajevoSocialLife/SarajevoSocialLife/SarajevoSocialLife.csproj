@@ -98,6 +98,15 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Model\Administrator.cs" />
+    <Compile Include="Model\Event.cs" />
+    <Compile Include="Model\IPlacanje.cs" />
+    <Compile Include="Model\Karta.cs" />
+    <Compile Include="Model\Korisnik.cs" />
+    <Compile Include="Model\MD5CryptoServiceProvider.cs" />
+    <Compile Include="Model\Mjesto.cs" />
+    <Compile Include="Model\Organizator.cs" />
+    <Compile Include="Model\Osoba.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -108,7 +117,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Images\admin.jpg" />
+    <Content Include="Images\jesen.jpg" />
+    <Content Include="Images\jesen1.jpg" />
     <Content Include="Images\LoginBackground.jpg" />
+    <EmbeddedResource Include="Images\proljece.jpg" />
     <Content Include="Images\registracija.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
@@ -145,6 +157,26 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Registracija.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\AdminPanel.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Jesen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\KupovinaKarte.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Pocetna.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Proljeće.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
