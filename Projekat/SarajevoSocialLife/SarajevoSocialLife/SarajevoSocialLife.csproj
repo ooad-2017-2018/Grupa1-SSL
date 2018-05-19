@@ -95,9 +95,6 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MainPage.xaml.cs">
-      <DependentUpon>MainPage.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Model\Administrator.cs" />
     <Compile Include="Model\Event.cs" />
     <Compile Include="Model\IPlacanje.cs" />
@@ -108,6 +105,33 @@
     <Compile Include="Model\Organizator.cs" />
     <Compile Include="Model\Osoba.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\AdminPanel.xaml.cs">
+      <DependentUpon>AdminPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\BrisanjeEventa.xaml.cs">
+      <DependentUpon>BrisanjeEventa.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\BrisanjeKorisnika.xaml.cs">
+      <DependentUpon>BrisanjeKorisnika.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Jesen.xaml.cs">
+      <DependentUpon>Jesen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\KupovinaKarte.xaml.cs">
+      <DependentUpon>KupovinaKarte.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Pocetna.xaml.cs">
+      <DependentUpon>Pocetna.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Proljece.xaml.cs">
+      <DependentUpon>Proljece.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Registracija.xaml.cs">
+      <DependentUpon>Registracija.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -136,33 +160,17 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="AdminPanel.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="BrisanjeEventa.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="BrisanjeKorisnika.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Login.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="MainPage.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Registracija.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="View\AdminPanel.xaml">
-      <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\BrisanjeEventa.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\BrisanjeKorisnika.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\Jesen.xaml">
       <SubType>Designer</SubType>
@@ -172,11 +180,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="View\Login.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\Pocetna.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="View\Proljeće.xaml">
+    <Page Include="View\Proljece.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Registracija.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
