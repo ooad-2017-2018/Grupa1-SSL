@@ -30,8 +30,8 @@
                 <PasswordBox x:Name="passwordBox" PlaceholderText="Password" Margin="4" Width="300"/>
 
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                    <RadioButton Name="rb1" Checked="WriteText2">Korisnik</RadioButton>
-                    <RadioButton Name="rb2" Checked="WriteText2">Organizator</RadioButton>
+                    <RadioButton Name="rb1" IsChecked="True" >Korisnik</RadioButton>
+                    <RadioButton Name="rb2" >Organizator</RadioButton>
 
                 </StackPanel>
                 <Button x:Name="regButton" Content="Registracija" Background="Aquamarine" Foreground="Black"

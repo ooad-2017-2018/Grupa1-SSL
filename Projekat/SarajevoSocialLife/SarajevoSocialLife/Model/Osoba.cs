@@ -11,7 +11,7 @@ namespace SarajevoSocialLife.Model
         string ime, prezime, spol, username, password;
         DateTime rodjenje;
 
-        private Osoba(string ime, string prezime, string spol, string username, string password, DateTime rodjenje)
+        public Osoba(string ime, string prezime, string spol, string username, string password, DateTime rodjenje)
         {
             this.ime = ime;
             this.prezime = prezime;
