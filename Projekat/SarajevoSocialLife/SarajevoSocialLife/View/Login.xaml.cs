@@ -26,5 +26,11 @@ namespace SarajevoSocialLife.View
         {
             this.InitializeComponent();
         }
+
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            base.OnNavigatedTo(e);
+            // aplikacija = (Aplikacija)e.Parameter;
+        }
     }
 }
