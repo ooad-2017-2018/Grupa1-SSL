@@ -9,7 +9,7 @@
 
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="Images/admin.jpg" Stretch="Fill"/>
+            <ImageBrush ImageSource="http://www.narod.ba/wp-content/uploads/2017/07/3dbe8b23-e25d-4343-814e-c1ce6d9297da-1600x972.jpg?x58773" Stretch="Fill"/>
         </Grid.Background>
         <Grid VerticalAlignment="Center">
             <Grid.RowDefinitions>

@@ -9,7 +9,7 @@
 
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="Images/registracija.jpg" Stretch="Fill"/>
+            <ImageBrush ImageSource="https://sarajevo.travel/assets/photos/sarajevo_travel_cover.jpg" Stretch="Fill"/>
         </Grid.Background>
         <Grid VerticalAlignment="Center" >
             <Grid.RowDefinitions>

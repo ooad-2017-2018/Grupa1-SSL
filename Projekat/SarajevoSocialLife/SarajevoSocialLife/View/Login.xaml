@@ -9,7 +9,7 @@
 
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="Images/LoginBackground.jpg" Stretch="Fill"/>
+            <ImageBrush ImageSource="http://klubikon.com/wp-content/uploads/2017/06/Sarajevo_sunset_1200x630-1200x630.jpg" Stretch="Fill"/>
         </Grid.Background>
         <Grid VerticalAlignment="Center">
             <Grid.RowDefinitions>

@@ -7,7 +7,10 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="http://klubikon.com/wp-content/uploads/2017/06/Sarajevo_sunset_1200x630-1200x630.jpg"></ImageBrush>
+        </Grid.Background>
 
         <Grid VerticalAlignment="Center">
             <Grid.RowDefinitions>
@@ -17,8 +20,12 @@
 
             <StackPanel Orientation="Vertical" Grid.Row="2">
                 <TextBox x:Name="userText" PlaceholderText="Unesite username" Margin="4" Width="250"/>
-                <Button x:Name="brisanjeButton" Content="Izbrisi korisnika" Width="150" HorizontalAlignment="Center" Margin="0,20"/>
-                <Button x:Name="ponistiButton" Content="Ponisti" Width="150" HorizontalAlignment="Center" Margin="0,20"/>
+                <Button x:Name="brisanjeButton" Content="Izbrisi korisnika" Width="150" HorizontalAlignment="Center" Margin="0,20" Background="#33FDFDFD"/>
+                <Button x:Name="ponistiButton" Content="Ponisti" Width="150" HorizontalAlignment="Center" Margin="0,20">
+                    <Button.Background>
+                        <SolidColorBrush Color="#33FFFFFF" Opacity="1"/>
+                    </Button.Background>
+                </Button>
 
 
 
