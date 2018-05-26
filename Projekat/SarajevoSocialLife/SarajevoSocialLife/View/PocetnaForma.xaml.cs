@@ -20,21 +20,11 @@ namespace SarajevoSocialLife.View
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class Proljece : Page
+    public sealed partial class PocetnaForma : Page
     {
-        public Proljece()
+        public PocetnaForma()
         {
             this.InitializeComponent();
-        }
-
-        private void RadioButton_SizeChanged(object sender, SizeChangedEventArgs e)
-        {
-
-        }
-
-        private void FO_rb_SizeChanged(object sender, SizeChangedEventArgs e)
-        {
-
         }
     }
 }

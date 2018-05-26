@@ -120,11 +120,14 @@
     <Compile Include="View\KupovinaKarte.xaml.cs">
       <DependentUpon>KupovinaKarte.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\Ljeto.xaml.cs">
+      <DependentUpon>Ljeto.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\Login.xaml.cs">
       <DependentUpon>Login.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\Pocetna.xaml.cs">
-      <DependentUpon>Pocetna.xaml</DependentUpon>
+    <Compile Include="View\PocetnaForma.xaml.cs">
+      <DependentUpon>PocetnaForma.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\Proljece.xaml.cs">
       <DependentUpon>Proljece.xaml</DependentUpon>
@@ -146,6 +149,7 @@
     <Content Include="Images\LoginBackground.jpg" />
     <EmbeddedResource Include="Images\proljece.jpg" />
     <Content Include="Images\registracija.jpg" />
+    <Content Include="Images\zimaSa.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -180,11 +184,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="View\Ljeto.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\Login.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="View\Pocetna.xaml">
+    <Page Include="View\PocetnaForma.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -9,11 +9,33 @@
 
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="ms-appx:///Images/proljece.jpg"/>
+            <ImageBrush ImageSource="http://www.sarajevotimes.com/wp-content/uploads/2017/03/spring-sarajevo-sun.jpg"></ImageBrush>
         </Grid.Background>
-        <TextBox HorizontalAlignment="Left" Margin="79,52,0,0" Text="Proljeće" VerticalAlignment="Top" Height="123" Width="590" FontSize="72" TextAlignment="Center" Foreground="White" FontFamily="Segoe UI" FontWeight="Bold" FontStyle="Normal"/>
-        <TextBox HorizontalAlignment="Left" Margin="538,345,0,0" Text="Odaberite događaj:" VerticalAlignment="Top" Height="92" Width="487" FontSize="48" TextAlignment="Center" Foreground="White"/>
-        <TextBox HorizontalAlignment="Left" Margin="623,520,0,0" Text="Međunarodni sajam knjige" VerticalAlignment="Top" Height="84" Width="340" FontSize="36" Foreground="White"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="2*"/>
 
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Grid.Column="0" Grid.Row="0" Text="Proljeće" Foreground="LightSeaGreen" VerticalAlignment="Center" FontSize="48" TextAlignment="Center"  FontFamily="Segoe UI" FontWeight="Bold" FontStyle="Normal" FontStretch="Expanded" ></TextBlock>
+        <TextBlock Grid.Column="1" Grid.Row="1" Text="Odaberite događaj:"  TextAlignment="Center" FontSize="22" FontFamily="Segoe UI"></TextBlock>
+        <RadioButton Grid.Column="1" Grid.Row="2" Content="Medjunarodni sajam knjige" SizeChanged="RadioButton_SizeChanged">
+            <RadioButton.Background>
+                <SolidColorBrush Color="#FFFFFCFC" Opacity="0.6"/>
+            </RadioButton.Background>
+        </RadioButton>
+        <RadioButton Grid.Column="1" Grid.Row="3" Content="Festival osmijeha" Name="FO_rb" SizeChanged="FO_rb_SizeChanged" FontWeight="Normal" FontStyle="Normal">
+            <RadioButton.Background>
+                <SolidColorBrush Color="White" Opacity="0.6"/>
+            </RadioButton.Background>
+        </RadioButton>
     </Grid>
 </Page>
