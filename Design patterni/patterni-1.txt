@@ -1,11 +1,11 @@
 1.STATE PATTERN
-Definicija - dinamicka verzija Strategy paterna. Objekat mijenja nacin ponašanja na osnovu trenutnog stanja.
-Primjer iz projekta - prilikom placanja karte dolazi do validiranja kartice, tj. do provjere da li ima novca na kartici. Ukoliko je kartica odbijena, klijent se obavještava i nije u mogucnosti izvršiti kupovinu, ukoliko je kartica prihvacena, klijent se obavještava o  uspješnoj transakciji.
+Definicija - dinamièka verzija Strategy paterna. Objekat mijenja naèin ponašanja na osnovu trenutnog stanja.
+Primjer iz projekta - prilikom plaæanja karte dolazi do validiranja kartice, tj. do provjere da li ima novca na kartici. Ukoliko je kartica odbijena, klijent se obavještava i nije u moguænosti izvršiti kupovinu, ukoliko je kartica prihvaæena, klijent se obavještava o  uspješnoj transakciji.
 
 2.OBSERVER PATTERN
-Definicija - Observer patern uspostavlja relaciju izmedu objekata tako da kada jedan objekat promijeni stanje, drugi zainteresirani objekti se obavještavaju.
-Primjer iz projekta - Ukoliko doðe do otkazivanja eventa, klijenti koji su kupili/rezervirali kartu primaju obavijest o odgodenom dogadaju.
+Definicija - Observer patern uspostavlja relaciju izmeðu objekata tako da kada jedan objekat promijeni stanje, drugi zainteresirani objekti se obavještavaju.
+Primjer iz projekta - Ukoliko doðe do otkazivanja eventa, klijenti koji su kupili/rezervirali kartu primaju obavijest o odgoðenom dogaðaju.
 
 3.FACADE DESIGN PATTERN
-Definicija - Jedna klasa koja predstavlja citav sistem.
+Definicija - Jedna klasa koja predstavlja èitav sistem.
 Primjer iz projekta - SSL klasa sadrži atribute Organizator i Admin, te listu evenata, korisnika, metode dodavanja i brisanja korisnika, evenata.
