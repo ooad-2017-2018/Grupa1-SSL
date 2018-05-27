@@ -37,5 +37,10 @@ namespace SarajevoSocialLife.View
         {
             this.Frame.Navigate(typeof(PocetnaForma));
         }
+
+        private void metoda(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
