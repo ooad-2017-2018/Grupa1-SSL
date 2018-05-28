@@ -14,9 +14,8 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="1*"/>
             <RowDefinition Height="1*"/>
+            <RowDefinition Height="3*"/>
             <RowDefinition Height="1*"/>
-            <RowDefinition Height="1*"/>
-            <RowDefinition Height="2*"/>
 
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
@@ -25,10 +24,22 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
-        <TextBlock Grid.Column="0" Grid.Row="0" Text="Proljeće" Foreground="LightSeaGreen" VerticalAlignment="Center" FontSize="48" TextAlignment="Center"  FontFamily="Segoe UI" FontWeight="Bold" FontStyle="Normal" FontStretch="Expanded" ></TextBlock>
-        <TextBlock Grid.Column="1" Grid.Row="1" Text="Odaberite događaj:"  TextAlignment="Center" FontSize="22" FontFamily="Segoe UI"></TextBlock>
-        <ListView HorizontalAlignment="Center" Background="White" Height="50" VerticalAlignment="Center" Width="200" Grid.Row="1" Grid.Column="1" RenderTransformOrigin="6.23,3.651" Margin="0,0,0,0"/>
+        <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Horizontal">
+        <Button Content="Nazad" Grid.ColumnSpan="1" HorizontalAlignment="Left" Grid.RowSpan="1" VerticalAlignment="Center" Grid.Column="0" Grid.Row="0" Height="50" Width="100" Click="nazad_Click" Foreground="LightSeaGreen" FontWeight="Bold" Padding="2,2,2,2">
+            <Button.Background>
+                <SolidColorBrush Color="White" Opacity="0.6"/>
+            </Button.Background>
+        </Button>
+        <TextBlock Grid.Column="0" Grid.Row="0" Text="Proljeće" Foreground="LightSeaGreen" VerticalAlignment="Center" HorizontalAlignment="Right" FontSize="45" TextAlignment="Center"  FontFamily="Segoe UI" FontWeight="Bold" FontStyle="Normal" FontStretch="Expanded" ></TextBlock>
+        </StackPanel>
+        
+        <TextBlock Grid.Column="1" Grid.Row="1" Text="Odaberite događaj:"  TextAlignment="Center" FontSize="22" FontFamily="Segoe UI" VerticalAlignment="Center" Foreground="LightSeaGreen" FontWeight="Bold"></TextBlock>
+        <ListView HorizontalAlignment="Stretch"  VerticalAlignment="Stretch" Grid.Row="2" Grid.Column="1">
+            <ListView.Background>
+                <SolidColorBrush Color="White" Opacity="0.6"/>
+            </ListView.Background>
+        </ListView>
 
-        <Button Content="Nazad" Grid.ColumnSpan="1" HorizontalAlignment="Right" Grid.RowSpan="1" VerticalAlignment="Center" Grid.Column="2" Grid.Row="0" Height="50" Width="100" Click="nazad_Click" Background="White"/>
+        
     </Grid>
 </Page>
