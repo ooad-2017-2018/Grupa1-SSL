@@ -123,6 +123,9 @@
     <Compile Include="View\BrisanjeKorisnika.xaml.cs">
       <DependentUpon>BrisanjeKorisnika.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\DodavanjeEventa.xaml.cs">
+      <DependentUpon>DodavanjeEventa.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\Jesen.xaml.cs">
       <DependentUpon>Jesen.xaml</DependentUpon>
     </Compile>
@@ -202,6 +205,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\BrisanjeKorisnika.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\DodavanjeEventa.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
