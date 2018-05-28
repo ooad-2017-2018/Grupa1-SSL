@@ -30,5 +30,15 @@ namespace SarajevoSocialLife.View
         {
             this.Frame.Navigate(typeof(PocetnaForma));
         }
+
+        private void nazad_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(PocetnaForma));
+        }
+
+        private void kupiKartu_click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(KupovinaKarte));
+        }
     }
 }
