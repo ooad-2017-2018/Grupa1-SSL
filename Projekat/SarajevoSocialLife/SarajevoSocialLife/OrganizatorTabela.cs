@@ -14,7 +14,7 @@ namespace SarajevoSocialLife
             get;
             set;
         }
-        public int id_korisnik
+        public string id_korisnik
         {
             get;
             set;

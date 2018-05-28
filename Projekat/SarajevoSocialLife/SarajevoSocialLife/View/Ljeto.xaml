@@ -35,9 +35,9 @@
         
         <TextBlock Grid.Column="1" Grid.Row="1" Text="Odaberite događaj:" TextAlignment="Center" FontSize="22" FontFamily="Segoe UI" Foreground="White"  VerticalAlignment="Center" FontWeight="Bold"></TextBlock>
 
-        <ListView HorizontalAlignment="Stretch"  VerticalAlignment="Stretch"  Grid.Row="2" Grid.Column="1">
+        <ListView x:Name ="lista" HorizontalAlignment="Stretch"  VerticalAlignment="Stretch"  Grid.Row="2" Grid.Column="1">
             <ListView.Background>
-                <SolidColorBrush Color="White" Opacity="0.6"/>
+                <SolidColorBrush Color="White" Opacity="0.1"/>
             </ListView.Background>
         </ListView>
 

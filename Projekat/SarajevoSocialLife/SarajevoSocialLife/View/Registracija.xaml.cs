@@ -15,6 +15,8 @@ using Windows.UI.Xaml.Navigation;
 
 using Microsoft.WindowsAzure.MobileServices;
 using Windows.UI.Popups;
+using System.Data.SqlClient;
+using System.Text;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -50,14 +52,55 @@ namespace SarajevoSocialLife.View
                 DateTime myDateTime = myDateTimeOffset.DateTime;
                 obj.datumRodjenja = myDateTime;
                 obj.spol = "rand";
+                userTableObj.InsertAsync(obj);
                 if (rb2.IsChecked == true)
                 {
                     IMobileServiceTable<OrganizatorTabela> userTableObj1 = App.MobileService.GetTable<OrganizatorTabela>();
                     OrganizatorTabela obj1 = new OrganizatorTabela();
+                    try
+                    {
+                        SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
+                        builder.DataSource = "sslserver.database.windows.net";
+                        builder.UserID = "ssladmin";
+                        builder.Password = "Sifrabaze1";
+                        builder.InitialCatalog = "SSLBaza";
+                        String sql=" ";
+                        using (SqlConnection connection = new SqlConnection(builder.ConnectionString))
+                        {
+                            
+                                connection.Open();
+                            
+                                StringBuilder sb = new StringBuilder();
+                                sb.Append("SELECT id ");
+                                sb.Append("FROM Korisnici ");
+                                sb.Append("WHERE username='" + usernameTextBox.Text + "';");
+                                sql= sb.ToString();
+                           
+                            
+                                using (SqlCommand command = new SqlCommand(sql, connection))
+                                {
+                                    
+                                        using (SqlDataReader reader = command.ExecuteReader())
+                                        {
+                                           while(reader.Read());
+                                            obj1.id_korisnik = reader.GetString(0);
+                                        }
+                                    
+                                }
+                            connection.Close();
+                            
+                        }
+                        obj1.id_korisnik = organizatorTextBox.Text;
+                        userTableObj1.InsertAsync(obj1);
+                    }
+                    catch (SqlException ex)
+                    {
+                        MessageDialog msgDialogError = new MessageDialog("Error : " + ex.ToString());
+                        msgDialogError.ShowAsync();
+                    }
 
                 }
                 
-                userTableObj.InsertAsync(obj);
                 MessageDialog msgDialog = new MessageDialog("Registracija uspješna!");
                
                 msgDialog.ShowAsync();
@@ -72,6 +115,16 @@ namespace SarajevoSocialLife.View
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(PocetnaForma));
+        }
+
+        private void cekiran(object sender, RoutedEventArgs e)
+        {
+            organizatorTextBox.Visibility = Visibility.Visible;
+        }
+
+        private void odcekiran(object sender, RoutedEventArgs e)
+        {
+            organizatorTextBox.Visibility = Visibility.Collapsed;
         }
     }
 }
