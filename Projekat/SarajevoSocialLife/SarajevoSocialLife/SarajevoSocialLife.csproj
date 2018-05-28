@@ -105,10 +105,17 @@
     <Compile Include="Model\Mjesto.cs" />
     <Compile Include="Model\Organizator.cs" />
     <Compile Include="Model\Osoba.cs" />
+    <Compile Include="Model\SSL.cs" />
     <Compile Include="OrganizatorTabela.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="View\AdminPanel.xaml.cs">
       <DependentUpon>AdminPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\BascarsijskeNoci.xaml.cs">
+      <DependentUpon>BascarsijskeNoci.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\BFS.xaml.cs">
+      <DependentUpon>BFS.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\BrisanjeEventa.xaml.cs">
       <DependentUpon>BrisanjeEventa.xaml</DependentUpon>
@@ -128,6 +135,9 @@
     <Compile Include="View\Login.xaml.cs">
       <DependentUpon>Login.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\MESS.xaml.cs">
+      <DependentUpon>MESS.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\PocetnaForma.xaml.cs">
       <DependentUpon>PocetnaForma.xaml</DependentUpon>
     </Compile>
@@ -136,6 +146,12 @@
     </Compile>
     <Compile Include="View\Registracija.xaml.cs">
       <DependentUpon>Registracija.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\SFF.xaml.cs">
+      <DependentUpon>SFF.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Template.xaml.cs">
+      <DependentUpon>Template.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\Zima.xaml.cs">
       <DependentUpon>Zima.xaml</DependentUpon>
@@ -173,6 +189,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="View\BascarsijskeNoci.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\BFS.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="View\BrisanjeEventa.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -197,6 +221,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="View\MESS.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="View\PocetnaForma.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -208,6 +236,14 @@
     <Page Include="View\Registracija.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\SFF.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Template.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="View\Zima.xaml">
       <SubType>Designer</SubType>
