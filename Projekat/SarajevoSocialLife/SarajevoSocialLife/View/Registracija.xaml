@@ -25,9 +25,9 @@
                 <TextBox x:Name="imeTextBox" PlaceholderText="Ime" Margin="4" Width="300"/>
                 <TextBox x:Name="prezimeimeTextBox" PlaceholderText="Prezime" Margin="4" Width="300"/>
                 <TextBlock Text="Odaberite datum rođenja:" FontSize="20" Margin="4" TextAlignment="Center" Foreground="Aquamarine"/>
-                <DatePicker HorizontalAlignment="Center"  Margin="4" Width="150"/>
-                <TextBox x:Name="TextBox" PlaceholderText="Username" Margin="4" Width="300"/>
-                <PasswordBox x:Name="passwordBox" PlaceholderText="Password" Margin="4" Width="300"/>
+                <DatePicker x:Name="datumPick" HorizontalAlignment="Center"  Margin="4" Width="150"/>
+                <TextBox x:Name="usernameTextBox" PlaceholderText="Username" Margin="4" Width="300"/>
+                <TextBox x:Name="passwordTextBox" PlaceholderText="Password" Margin="4" Width="300"/>
 
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                     <RadioButton Name="rb1" IsChecked="True" >Korisnik</RadioButton>
@@ -35,7 +35,7 @@
 
                 </StackPanel>
                 <Button x:Name="regButton" Content="Registracija" Background="Aquamarine" Foreground="Black"
-         Width="100" HorizontalAlignment="Center" Margin="0,20"/>
+         Width="100" HorizontalAlignment="Center" Margin="0,20" Click="regButtonOnClick"/>
 
             </StackPanel>
         </Grid>

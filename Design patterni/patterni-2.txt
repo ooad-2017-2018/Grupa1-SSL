@@ -1,0 +1,9 @@
+1.TEMPLATE METHOD
+Definicija - Odreðuje koji dijelovi klase u standardni a koji nisu. Standardne dijelove izdvaja u apstraktnu klasu, dok specifiène dijelove izdvaja u posebne klase.
+Primjer iz projekta - Apstraktna klasa Osoba sadrži atribute koji su zajednièki svim objektima, dok izvedena klasa Korisnik sadrži atribut aktivan, klasa Organizator sadrži listu evenata, a klasa administrator sadrži listu korisnika.
+
+2.ITERATOR PATTERN
+Definicija - omoguæava sekvencijalni pristup elementima kolekcije bez poznavanja kako je kolekcija strukturirana.
+
+3.CHAIN OF RESPONSIBILITY
+Definicija - predstavlja listu objekata, ukoliko objekat ne može da odgovori prosljeðuje zahtjev narednom u nizu.
