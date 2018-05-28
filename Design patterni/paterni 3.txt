@@ -1,0 +1,10 @@
+1.STRATEGY PATTERN
+Definicija - izdvaja algoritam iz matiène klase i ukljuèuje ga u posebne klase.
+Primjer iz projekta: Prilikom odabira karte, klijent ima moguænost da kupi kartu odmah ili da je rezrviše. Ukoliko kupi kartu odmah, nudi mu se i odreðeni popust.
+
+2.MEMENTO PATTERN
+Definicija - omoguæava spašavanje internog stanja nekog objekta van sistema i njegovo ponovno vraæanje.
+Primjer iz projekta - Nakon što korisnik postane neaktivan, tj. nakon što ga administrator izbaci iz sistema, postoji moguænost da se nakon odreðenog perioda ponovno aktivira njegov korisnièki raèun.
+
+3.SINGLETON PATTERN
+Definicija - klasa ima samo jednu instancu i omoguæava "globalnu upotrebu", tj. klasa koja ima jedan objekat koji je dostupan svima u sistemu.
